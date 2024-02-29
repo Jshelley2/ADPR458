@@ -5,6 +5,7 @@ body {
     header {
        background-color: #9abcf8; 
        color: white;
+       padding: 2rem;
     }
     h1 {
  font-size: 2rem;
@@ -15,4 +16,3 @@ body {
     h3 {
         font-size: 1.25rem;
     }
-
