@@ -32,11 +32,15 @@ body {
       border-radius: 100%;
       border: 4px solid #9abcf8;
     }
-    a {
+    a:link {
       color: #9abcf8; 
+      text-decoration: none;
     }
-
-
+   a:hover {
+     color: #216bec; 
+     text-decoration: underline;
+   }
+   
     /*** Layout ***/
     .container {
       background-color: white;
