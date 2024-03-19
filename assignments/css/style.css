@@ -65,6 +65,27 @@ body {
       }
    }
 
+
+      /*** Navigation Using Flexbox ***/
+      nav {
+         background-color: #434242;
+         padding: 0 1rem;
+         display: flex;
+         justify-content: center;
+         position: sticky;
+         top: 0;
+      }
+
+      nav ul {
+         margin: 0;
+         padding: 0;
+         list-style: none;
+         display: flex;
+         flex-flow: row wrap;
+
+      }
+
+
      /*** Components ***/
 
      .button:link, .button:visited {
